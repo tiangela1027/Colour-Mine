@@ -63,9 +63,6 @@
     <Compile Include="Assets\Scenes\Main\Scripts\ColourRandomizer.cs" />
     <Compile Include="Assets\Scenes\Main\Scripts\DetectClicks.cs" />
     <Compile Include="Assets\Scenes\Main\Scripts\GridManager.cs" />
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -75,26 +72,11 @@
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:/Users/Angela/Documents/Unity/Colour Fighter/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -6,7 +6,6 @@ public class DetectClicks : MonoBehaviour
 {
     private static int gridWidth = GridManager.gridWidth;
     private static int gridHeight = GridManager.gridHeight;
-    private static readonly Color[] Colors = ColourRandomizer.Colors;
     private static Color color;
 
     private GameObject start;
