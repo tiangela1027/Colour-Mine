@@ -7,11 +7,11 @@ public class GridManager : MonoBehaviour
     private float tileSize = 1;
 
     public GameObject squarePrefab;
-    public static int gridWidth = 10;
+    public static int gridWidth = 9;
     public static int gridHeight = 20;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GenerateGrid();
     }

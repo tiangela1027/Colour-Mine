@@ -15,7 +15,7 @@ public class DetectClicks : MonoBehaviour
     public static List<GameObject> notSameColor = new List<GameObject>();
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         for (int i = 0; i < gridWidth; i++)
         {
@@ -80,10 +80,18 @@ public class DetectClicks : MonoBehaviour
         neighbours = neighbourCell(up, up_row, col, neighbours);
         neighbours = neighbourCell(down, down_row, col, neighbours);
 
+        int patchSize = 0;
+
+        // if no neighbours
         if (neighbours.ToArray().Length == 0)
         {
             if (curr != start)
+            {
                 Destroy(curr);
+                ScoringSystem.AddToScore(patchSize);
+            }
+            else if (curr == start)
+                ScoringSystem.DeleteFromScore(); // lone square has no neighbours of same colour 
             else
                 notSameColor.Clear();
 
@@ -101,9 +109,15 @@ public class DetectClicks : MonoBehaviour
             destroyNeighbours(g, color);
 
             if (grid[row, col] == 1)
+            {
                 Destroy(g);
+                patchSize++;
+            }
         }
 
         Destroy(curr);
+        patchSize++;
+
+        ScoringSystem.AddToScore(patchSize);
     }
 }
